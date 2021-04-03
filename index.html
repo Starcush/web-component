@@ -5,13 +5,39 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <title>HTML1</title>
+  
+  <title>Web Component</title>
 </head>
-<body>
   <div class="bg"></div>
   <div class="container">
-    <button class="editbtn"></button>
-    <button class="delBtn"></button>
+    <button is="delete-btn">delete</button>
+    <table>
+      <thead>
+        <tr>
+          <th>select</th>
+          <th>content</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><input type="checkbox" class="checkbox"></td>
+          <td>content1</td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" class="checkbox"></td>
+          <td>content2</td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" class="checkbox"></td>
+          <td>content3</td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" class="checkbox"></td>
+          <td>content4</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
+  <script src="script.js"></script>
 </body>
 </html>
